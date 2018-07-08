@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Index</title>
+        <style>
+            body{
+                background-color: azure;
+                margin-top: 10%;
+                margin-right: 20%;
+                margin-left: 20%;
+            }
+    
+            h1{
+                text-align: center;
+            }
+            p{
+                text-align: center;
+            }
+            textarea{
+                width: 100%;
+                border-color: aquamarine;
+            }
+            .buttonplace{
+                margin: auto;
+                padding:0% 38%;
+                width: 44%;
+
+            }
+        
+    
+            .button1{
+                background-color: rgb(18, 236, 18);
+                border: red;
+                border-radius: 7px;
+                font-size: 245%;
+
+                color: aliceblue;
+                text-align: center;
+                cursor: pointer;
+
+            }
+    
+            .button2{
+                background-color: orange;
+
+                border: red;
+                border-radius: 7px;
+        
+                text-align: center;
+                color: aliceblue;
+                cursor: pointer;
+        
+                font-size: 245%;
+                position: absolute;
+            }
+       </style>
+    
+
+    </head>
+    <body>
+
+        <hr>
+        <h1>Character Frequency Counter</h1>
+        <hr>
+        <P>Insert yourstring into the folling text area to get the count per Character</P>
+        <form action="result.php" method="POST">
+            
+            <textarea name="textbox" rows="10" cols="30" ></textarea>
+            <br>
+            <br>
+            <div class="buttonplace">
+                <input class="button1" type="submit" value="count">
+                <input class="button2" type="reset" value="Clear">
+            </div>
+        </form>
+    </body>    
+</html>
